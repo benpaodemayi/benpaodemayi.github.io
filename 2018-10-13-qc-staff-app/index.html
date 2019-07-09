@@ -3,22 +3,37 @@
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
-  <title>E丢丢App重设计总结 | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="青橙健身管理App是青橙科技旗下的一款产品，专为健身从业者打造，它整合了健身管理 SaaS 功能，方便工作人员随时随地管理健身房、跟进会员；同时还可以随时了解健身行业的新闻资讯、一对一求职招聘、参加健身会议培训等、组织全国范围内的健身赛事，连接健身行业的从业者，在这里实现健身从业的第一步！ 该产品在2016年3月开始做，2016年7月上线1.0版本，现在仍然在持续地迭代和优化。在这个产品中，我担任">
-<meta name="keywords" content="Blog">
+  <meta name="description" content="layout:     posttitle:      E丢丢App重设计总结excerpt: 为提升学历者打造的平台，服务于在职场上想进步的每一个人！App Store、应用宝、公司官网可搜索下载 category:    Projectstag:  Blogphotos:  ../img/x.jpg  青橙健身管理App是青橙科技旗下的一款产品，专为健身从业者打造，它整合了健身管理 SaaS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="E丢丢App重设计总结">
+<meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://yoursite.com/2018-10-13-qc-staff-app/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="青橙健身管理App是青橙科技旗下的一款产品，专为健身从业者打造，它整合了健身管理 SaaS 功能，方便工作人员随时随地管理健身房、跟进会员；同时还可以随时了解健身行业的新闻资讯、一对一求职招聘、参加健身会议培训等、组织全国范围内的健身赛事，连接健身行业的从业者，在这里实现健身从业的第一步！ 该产品在2016年3月开始做，2016年7月上线1.0版本，现在仍然在持续地迭代和优化。在这个产品中，我担任">
+<meta property="og:description" content="layout:     posttitle:      E丢丢App重设计总结excerpt: 为提升学历者打造的平台，服务于在职场上想进步的每一个人！App Store、应用宝、公司官网可搜索下载 category:    Projectstag:  Blogphotos:  ../img/x.jpg  青橙健身管理App是青橙科技旗下的一款产品，专为健身从业者打造，它整合了健身管理 SaaS">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/qcstaff-cover.png">
-<meta property="og:updated_time" content="2019-07-08T06:14:23.335Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-01.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-02.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-03.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-13.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-04.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-05.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-06.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-07.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-14.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-08.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-09.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-10.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/6.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/9.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/10.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/11.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-12.jpg">
+<meta property="og:updated_time" content="2019-07-09T06:30:04.711Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="E丢丢App重设计总结">
-<meta name="twitter:description" content="青橙健身管理App是青橙科技旗下的一款产品，专为健身从业者打造，它整合了健身管理 SaaS 功能，方便工作人员随时随地管理健身房、跟进会员；同时还可以随时了解健身行业的新闻资讯、一对一求职招聘、参加健身会议培训等、组织全国范围内的健身赛事，连接健身行业的从业者，在这里实现健身从业的第一步！ 该产品在2016年3月开始做，2016年7月上线1.0版本，现在仍然在持续地迭代和优化。在这个产品中，我担任">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/qcstaff-cover.png">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="layout:     posttitle:      E丢丢App重设计总结excerpt: 为提升学历者打造的平台，服务于在职场上想进步的每一个人！App Store、应用宝、公司官网可搜索下载 category:    Projectstag:  Blogphotos:  ../img/x.jpg  青橙健身管理App是青橙科技旗下的一款产品，专为健身从业者打造，它整合了健身管理 SaaS">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/CloverTuan/Markdown_Images/master/qc-staff/staffapp-01.jpg">
   
   <link rel="stylesheet" href="/css/index.css">
 </head>
@@ -77,10 +92,17 @@
   </div>
 </nav>
     <div id="main"><section class="article">
-  <h2 class="title">E丢丢App重设计总结</h2>
+  <h2 class="title"></h2>
   <p class="sub">Jul 8, 2019</p>
   <article class="content">
-    <p>青橙健身管理App是<a href="http://qingchengfit.cn/" target="_blank" rel="noopener">青橙科技</a>旗下的一款产品，专为健身从业者打造，它整合了健身管理 SaaS 功能，方便工作人员随时随地管理健身房、跟进会员；同时还可以随时了解健身行业的新闻资讯、一对一求职招聘、参加健身会议培训等、组织全国范围内的健身赛事，连接健身行业的从业者，在这里实现健身从业的第一步！</p>
+    <hr>
+<p>layout:     post<br>title:      E丢丢App重设计总结<br>excerpt: 为提升学历者打造的平台，服务于在职场上想进步的每一个人！App Store、应用宝、公司官网可搜索下载</p>
+<p>category:    Projects<br>tag:</p>
+<ul>
+<li>Blog<br>photos: </li>
+<li>../img/x.jpg</li>
+</ul>
+<p>青橙健身管理App是<a href="http://qingchengfit.cn/" target="_blank" rel="noopener">青橙科技</a>旗下的一款产品，专为健身从业者打造，它整合了健身管理 SaaS 功能，方便工作人员随时随地管理健身房、跟进会员；同时还可以随时了解健身行业的新闻资讯、一对一求职招聘、参加健身会议培训等、组织全国范围内的健身赛事，连接健身行业的从业者，在这里实现健身从业的第一步！</p>
 <p>该产品在2016年3月开始做，2016年7月上线1.0版本，现在仍然在持续地迭代和优化。在这个产品中，我担任交互和视觉设计师，负责80%的设计工作，1.0版本全部由我独立负责，完整地参与整个项目周期。您也可以在这里观看：<a href="https://www.behance.net/gallery/71708425/AppAn-App-for-fitness-practitioner" target="_blank" rel="noopener">On Behance</a> | <a href="https://www.zcool.com.cn/work/ZMzEyMDgzNjA=.html" target="_blank" rel="noopener">On Zcool</a> | <a href="https://dribbble.com/shots/5504183-An-App-for-fitness-practitioner" target="_blank" rel="noopener">On Dribbble</a> </p>
 <h2 id="项目背景"><a href="#项目背景" class="headerlink" title="项目背景"></a>项目背景</h2><p><strong>公司战略和市场分析</strong></p>
 <p>青橙在创业初期的主要产品「青橙健身房管理系统」是一款Web端的 SaaS 产品，青橙一直把业务聚焦在B端客户——即健身房上，而随着时间的累积，这个市场将会越来越趋向饱和，而每个健身房包含多名教练、管理者等健身从业者，且随着健身风潮的流行、人们消费能力的升级，健身从业者也在不断增加，因此在这个阶段青橙思考将目标用户从「健身房」这个团体转向「健身从业者」的个体，扩大用户群体，发掘更大的市场，尝试更多能满足健身从业者需求的业务，探索更多的可能性。</p>
